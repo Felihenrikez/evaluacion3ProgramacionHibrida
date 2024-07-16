@@ -1,0 +1,11 @@
+<ion-content>
+  <ion-item>
+   <ion-label>deseas eliminar el viaje a {{viaje.ciudad}}</ion-label>
+  </ion-item>
+  <ion-button size="large"
+  (click)="deleteClick(viaje.id)">
+    Confirmar
+    <ion-icon slot="end" name="trash" ></ion-icon>
+    </ion-button>
+
+</ion-content>

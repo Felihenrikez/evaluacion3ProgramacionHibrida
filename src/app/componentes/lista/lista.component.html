@@ -1,0 +1,14 @@
+
+
+
+  <ion-content color="light">
+    <p>lista</p>
+    <ion-list [inset]="true">
+      <app-item-lista *ngFor="let v of viajes"
+      [viaje] ="v"      
+      ></app-item-lista>
+    </ion-list>
+  </ion-content>
+
+
+
